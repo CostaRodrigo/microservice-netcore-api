@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\contacorrente.application\contacorrente.application.csproj" />
+    <ProjectReference Include="..\contacorrente.core\contacorrente.core.csproj" />
+    <ProjectReference Include="..\contacorrente.domain\contacorrente.domain.csproj" />
+  </ItemGroup>
+
+</Project>
